@@ -1,35 +1,40 @@
 import React from "react";
 import "./projects.css";
-import "./projects.json";
+import projects from "./projects.json";
+import Wrapper from "./components/Wrapper";
+import Components from "./components";
+import Title from "./Title";
 
-// class Projects extends Component {
-//     // Setting this.state.projects to the Projects.json array
-//     // 
-//     state = {
-//       projects
-//     };
+class project extends Components {
+    // Setting this.state.projects to the Projects.json array
+    // 
+    state = {
+      projects
+    };
 
-render() {
+render()  {
     return (
       <Wrapper>
         <Title>Project List</Title>
-        {this.state.projects.map(project => (
-          <Projects
+        {this.state.project.map(projects => (
+          <project
             // removeFriend={this.removeFriend}
-            id={project.id}
-            key={project.id}
-            name={project.name}
-            image={project.image}
-            link={project.link}
+            id={projects.id}
+            key={projects.id}
+            name={projects.name}
+            image={projects.image}
+            link={projects.link}
           />
         ))}
       </Wrapper>
     );
-  }
+    }
+}  
+  
 
 
 /* Lots of editing needed here */
-function Projects(props) {
+function ProjectCard(project) {
   return (
     <div className="ProjectCard">
       <div className="img-container">
@@ -38,22 +43,19 @@ function Projects(props) {
       <div className="content">
         <ul>
           <li>
-            <strong>Name:</strong> {props.name}
+            <strong>Image:</strong> {project.image}
           </li>
           <li>
-            <strong>Occupation:</strong> {props.occupation}
+            <strong>Name:</strong> {project.name}
           </li>
           <li>
-            <strong>Location:</strong> {props.location}
+            <strong>Link:</strong> {project.link}
           </li>
         </ul>
       </div>
-      <span onClick={() => props.removeFriend(props.id)} className="remove">
-        𝘅
-      </span>
     </div>
   );
 }
 
 
-export default Projects;
+export default ProjectCard;
