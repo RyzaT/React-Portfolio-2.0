@@ -1,4 +1,4 @@
-$primary-color: #ffd700
+$primary-color: #ffd700;
 
 @import 'animate.css';
 
@@ -15,7 +15,6 @@ $primary-color: #ffd700
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
 
-input.,
-textarea{
+input.textarea{
   font-family: 'Helvetica Neue';
 }

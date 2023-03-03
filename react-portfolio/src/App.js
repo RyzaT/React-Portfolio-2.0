@@ -1,11 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NavTabs from "./components/pages/NavTabs.js";
-import Home from './components/pages/Home.js';
-import About from './components/pages/About.js';
-import Projects from './components/projects/Projects.js';
-import Contact from './components/pages/Contact.js';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import NavTabs from "./components/pages/NavTabs.js";
+// import Home from './components/pages/Home.js';
+// import About from './components/pages/About.js';
+// import Projects from './components/projects/Projects.js';
+// import Contact from './components/pages/Contact.js';
 import './App.scss';
+import { Routes, Route , Router } from 'react-router-dom';
+import Layout from "./components/Layout/index.js";
     
 function App() {
     return (
@@ -15,11 +17,11 @@ function App() {
                 <Routes>
                     {/* Define Routes using the Route components at different paths */}
                     {/* Define a default route that will render the Home component */}
-                    <Route path="/" element={<Home />} />
-                    <Route path="about" element={<About />} />
-                    <Route path="projects" element={<Projects />} />
+                    {/* <Route path="/" element={<Home />} /> */}
+                    {/* <Route path="about" element={<About />} /> */}
+                    {/* <Route path="projects" element={<Projects />} /> */}
                     {/* Define a route that will have descendant routes */}
-                    <Route path="contact/*" element={<Contact />} />
+                    {/* <Route path="contact/*" element={<Contact />} /> */}
                 </Routes>
             </div>
         </Router>
