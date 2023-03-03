@@ -5,12 +5,12 @@ import Home from './components/pages/Home.js';
 import About from './components/pages/About.js';
 import Projects from './components/projects/Projects.js';
 import Contact from './components/pages/Contact.js';
+import './App.scss';
     
 function App() {
     return (
         <Router>
             <div>
-                <NavTabs />
                 {/* Wrap Route elements in Routes component */ }
                 <Routes>
                     {/* Define Routes using the Route components at different paths */}
