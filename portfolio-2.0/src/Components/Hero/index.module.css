@@ -79,6 +79,19 @@ nav ul ul li a:hover {
     width: 400px;
     font-size: x-large;
 }
+.animated_text{
+    overflow:hidden;
+    white-space: nowrap;
+    animation: writing 4s infinite ;
+}
+@keyframes writing{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
 
 .profile .image{
     position: absolute;
