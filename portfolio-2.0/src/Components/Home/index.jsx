@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './index.module.css'
 
-const Hero = () => {
+const Home = () => {
     return (
         <div className={styles.container}>
 
@@ -13,7 +13,7 @@ const Hero = () => {
                         <div>Web Designer, Web Developer, Front End Developer</div>
                     </div>
                     <div className={styles.profile}>
-                        <img className={styles.image} src="portfolio-2.0/public/cartoon.jpg" alt="me"></img>
+                        
                     </div>
                 </div>
             </div>
@@ -21,4 +21,4 @@ const Hero = () => {
     )
 }
 
-export default Hero;
+export default Home;
