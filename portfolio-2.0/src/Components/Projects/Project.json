@@ -1,0 +1,53 @@
+ 
+ [
+  {"start": "NODE_PATH=src react-scripts start"
+ },
+  {
+    "id": 1,
+    "key": 1,
+    "name": "JavaScript Coding Quiz",
+    "image": "portfolio-2.0/public/images/js-coding-quiz-screen.png",
+    "description": "A Timed Quiz Themed Around JavaScript",
+    "link": "https://github.com/RyzaT/Coding-Quiz-JScript"
+  },
+  {
+    "id": 2,
+    "key": 2,
+    "name": "Work Day Scheduler",
+    "image": "portfolio-2.0/public/images/Daily Planner screenshot.png",
+    "description": "Daily Planner Application build around JavaScript, HTML and CSS",
+    "link": "https://github.com/RyzaT/Daily-Planner-App"
+  },
+  {
+    "id": 3,
+    "key": 3,
+    "name": "Team Profile Generator",
+    "image": "portfolio-2.0/public/images/team-profile-gen-screen.png",
+    "description": "Team Profile Generator made with test driven develpomen",
+    "link": "https://github.com/RyzaT/Team-Profile-Generator-TDD"
+  },
+  {
+    "id": 4,
+    "key": 4,
+    "name": "University Explorer Guide",
+    "image": "portfolio-2.0/public/images/uni-explorer-screen.png",
+    "description": "A University Guide Using API's",
+    "link": "https://github.com/RyzaT/University-Explorer-Project"
+  },
+  {
+    "id": 5,
+    "key": 5,
+    "name": "Weather Dashboard",
+    "image": "portfolio-2.0/public/images/weather dash screen.png",
+    "description": "Weather Dashboard built around JavaScript, HTML and CSS",
+    "link": "https://github.com/RyzaT/Weather-Dashboard-RyzaT"
+  },
+  {
+    "id": 6,
+    "key": 6,
+    "name": "Readme Generator",
+    "image": "portfolio-2.0/public/images/Readme-Gen-Screen.png",
+    "description": "A Readme Generator built through Node",
+    "link": "https://github.com/RyzaT/Node-ReadMe-Generator"
+  }
+]
