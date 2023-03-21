@@ -5,15 +5,16 @@ import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home';
 import Contact from './Components/Contact/Contact';
 // import Projects from './Components/Projects';
-import Title from './Components/Title';
+// import Title from './Components/Title';
 import Wrapper from './Components/Wrapper';
-import props from './Components/Projects/Project.json';
-import ProjectCard from './Components/Projects/Project';
+// import props from './Components/Projects/Project.json';
+// import ProjectCard from './Components/Projects/Project';
 import Projects from "./Components/Projects/Projects";
 import Header from './Components/Banner/Header';
 import styled from "styled-components";
 import ProfComponent from './Components/Banner/ProfComponent';
 import Services from './Components/Service/Services';
+import Clients from './Components/Clients/Clients';
 
 
 // import Menu from './Components/Menu/Menu';
@@ -34,6 +35,7 @@ function App() {
         <LightColor>
           <Projects />
         </LightColor>
+        <Clients />
       </Container>
       <Navbar />
       <Routes>
@@ -41,7 +43,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="contact" element={<Contact />} />
       <Route path="projects" element={<><Projects /><Wrapper>
-          <Title>Projects</Title>
+          {/* <Title>Projects</Title>
           {props.map(project => <ProjectCard
 
             id={project.id}
@@ -50,7 +52,7 @@ function App() {
             image={project.image}
             description={project.description}
             link={project.url} />
-          )}
+          )} */}
         </Wrapper></>
       } />
     
