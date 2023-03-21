@@ -15,6 +15,7 @@ import styled from "styled-components";
 import ProfComponent from './Components/Banner/ProfComponent';
 import Services from './Components/Service/Services';
 import Clients from './Components/Clients/Clients';
+import Footer from './Components/Footer/Footer';
 
 
 // import Menu from './Components/Menu/Menu';
@@ -35,7 +36,10 @@ function App() {
         <LightColor>
           <Projects />
         </LightColor>
-        <Clients />
+          <Clients />
+        <LightColor>
+          <Footer />
+        </LightColor>
       </Container>
       <Navbar />
       <Routes>
