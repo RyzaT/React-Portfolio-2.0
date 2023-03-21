@@ -5,6 +5,7 @@ import { GiEarthAmerica } from "react-icons/gi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 
+
 const ProfComponent = () => {
   return (
     <Container id="home">
@@ -44,7 +45,7 @@ const ProfComponent = () => {
       <Slide direction="right">
         <Profile>
           <img
-            src="https://res.cloudinary.com/ghazni/image/upload/v1659082282/Yt-portfolio/Untitled-1_drcspz.png"
+            src="/me-bkg-blk.JPG"
             alt="profile"
           />
         </Profile>

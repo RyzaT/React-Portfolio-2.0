@@ -86,7 +86,7 @@ nav ul ul li a:hover {
 }
 
 .profile {
-    background: url("../../../public/me-bkg-blk.JPG") no-repeat;
+    /* background: url("../../../public/me-bkg-blk.JPG") no-repeat; */
     position: absolute;
     right: 100px;
     top: 150px;

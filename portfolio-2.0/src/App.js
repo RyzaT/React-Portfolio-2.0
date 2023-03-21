@@ -13,6 +13,7 @@ import Projects from "./Components/Projects/Project";
 import Header from './Components/Banner/Header';
 import styled from "styled-components";
 import ProfComponent from './Components/Banner/ProfComponent';
+import Services from './Components/Service/Services';
 
 
 // import Menu from './Components/Menu/Menu';
@@ -29,6 +30,7 @@ function App() {
         <Header />
         <ProfComponent />
         </Banner>
+        <Services />
       </Container>
       <Navbar />
       <Routes>
